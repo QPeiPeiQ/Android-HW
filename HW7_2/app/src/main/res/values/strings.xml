@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (C) 2018 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="action_settings">Settings</string>
+    <string name="cooking1">Sand Tea Lamb Risotto</string>
+    <string name="cooking_word1">The mutton is delicious, plus the glutinous rice flour is used, and it is mixed with the rice. You can eat the perfect combination of ingredients and rice in every bite.</string>
+    <string name="cooking2">Mapo Tofu</string>
+    <string name="cooking_word2">Famous Sichuan cuisine, spicy, served with fragrant rice, super delicious.</string>
+    <string name="cooking3">Crispy Egg Tofu</string>
+    <string name="cooking_word3">It looks golden on the outside, but is yellow-white on the inside, crispy on the outside and soft on the inside.</string>
+    <string name="cooking4">sweet potato ball</string>
+    <string name="cooking_word4">Small snacks from small to large, small snacks that are far from feve.</string>
+    <string name="cooking5">Momochacha</string>
+    <string name="cooking_word5">A dessert from Thailand, very delicious.</string>
+</resources>
