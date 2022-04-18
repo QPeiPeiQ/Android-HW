@@ -16,6 +16,7 @@
 
 package com.example.android.recyclerview;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 mRecyclerView.getAdapter().notifyItemInserted(wordListSize);
                 // Scroll to the bottom.
                 mRecyclerView.smoothScrollToPosition(wordListSize);
+
             }
         });
 
@@ -87,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
         // Give the recycler view a default layout manager.
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+
+        Intent intent = new Intent(MainActivity.this, Recipes.class);
+        mAdapter.getIntent(intent);
     }
 
     /**

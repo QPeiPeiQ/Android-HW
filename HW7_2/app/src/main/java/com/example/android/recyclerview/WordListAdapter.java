@@ -37,6 +37,8 @@ public class WordListAdapter extends
     private final LinkedList<String> mWordList2;
     private final LayoutInflater mInflater;
 
+    private Intent intent;
+
     class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public final TextView wordItemView1;
         public final TextView wordItemView2;
@@ -61,7 +63,9 @@ public class WordListAdapter extends
 
         @Override
         public void onClick(View view) {
-            
+            int mPosition = getLayoutPosition();
+            intent.putExtra("num", mPosition);
+            view.getContext() .startActivity(intent);
         }
     }
 
@@ -125,5 +129,9 @@ public class WordListAdapter extends
     @Override
     public int getItemCount() {
         return mWordList1.size();
+    }
+
+    public void getIntent(Intent t){
+        intent = t;
     }
 }
